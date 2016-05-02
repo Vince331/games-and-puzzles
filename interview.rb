@@ -39,31 +39,31 @@
       # Write a program that prints which cats have hats at the end.
 
 
-def cats
-final = []
-i = 1
-j = 0
-        while j <= 100
-            total = 0
-            while total <= 100
-                if j > 0
-                total = (total+i)*j
-                else
-                total = (total+i)+j
-                end
-                if final.include(total)
-                final.delete(total)
-                else
-                final << total
-                end
-            i+=1
-            end
-            j+=1
-        end
-p final
-end
-
-p cats
+#def cats
+#final = []
+#i = 1
+#j = 0
+#        while j <= 100
+#            total = 0
+#            while total <= 100
+#                if j > 0
+#                total = (total+i)*j
+#                else
+#                total = (total+i)+j
+#                end
+#                if final.include(total)
+#                final.delete(total)
+#                else
+#                final << total
+#                end
+#            i+=1
+#            end
+#            j+=1
+#        end
+#p final
+#end
+#
+#p cats
 
 
 
